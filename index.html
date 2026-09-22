@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PC Help Hub — Suporte para PC e Jogos</title>
+<style>
+:root{--bg:#070b12;--card:#0d1521;--line:#1d2a3a;--text:#f4f7fb;--muted:#9aa8ba;--blue:#4da3ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#14243a,transparent 42%),var(--bg);color:var(--text);font-family:Segoe UI,Arial,sans-serif}
+.wrap{width:min(1050px,92%);margin:auto}nav{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.logo{font-weight:800}.logo span{color:var(--blue)}nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:14px}
+.hero{text-align:center;padding:105px 0 90px}.badge{border:1px solid #285074;background:#0d1c2d;color:#9bd1ff;border-radius:99px;padding:7px 13px;font-size:12px}.hero h1{font-size:clamp(42px,7vw,68px);line-height:1.02;margin:20px 0 16px}.blue{color:var(--blue)}.hero p{max-width:620px;margin:auto;color:var(--muted);font-size:17px;line-height:1.7}
+.buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px}.btn{padding:13px 21px;border-radius:9px;text-decoration:none;font-weight:700;font-size:14px;border:1px solid var(--line);color:var(--text);background:var(--card)}.primary{background:var(--blue);border-color:var(--blue);color:#06111e}
+section{padding:70px 0}.title{text-align:center;margin-bottom:34px}.title h2{font-size:30px;margin:0 0 8px}.title p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(180deg,#101a29,var(--card));border:1px solid var(--line);border-radius:14px;padding:24px}.icon{font-size:24px}.card h3{margin:12px 0 8px}.card p,.card li{color:var(--muted);line-height:1.6;font-size:14px}.price{font-size:30px;font-weight:800;margin:10px 0}.price small{font-size:12px;color:var(--muted);font-weight:400}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.step{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 14px}.num{color:var(--blue);font-weight:800}.step p{color:var(--muted);font-size:13px;line-height:1.5}.cta{text-align:center;background:linear-gradient(135deg,#0e1b2c,#0a111c);border:1px solid var(--line);border-radius:18px;padding:52px 25px}.cta p{max-width:560px;margin:auto;color:var(--muted);line-height:1.6}footer{padding:35px 0;text-align:center;color:#69788a;font-size:12px;border-top:1px solid var(--line)}
+@media(max-width:760px){nav a{display:none}.hero{padding:75px 0}.grid,.steps{grid-template-columns:1fr}section{padding:55px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><div class="logo">PC <span>HELP HUB</span></div><div><a href="#servicos">Serviços</a><a href="#precos">Preços</a><a href="#como">Como funciona</a></div></nav>
+
+<header class="hero">
+<span class="badge">SUPORTE PARA PC E JOGOS</span>
+<h1>Seu problema.<br><span class="blue">Nossa solução.</span></h1>
+<p>Ajuda simples e direta para problemas no Windows, jogos, FPS, mods, configurações e muito mais.</p>
+<div class="buttons"><a class="btn primary" href="https://discord.gg/EHMKE4X3n" target="_blank">Abrir suporte no Discord</a><a class="btn" href="#precos">Ver preços</a></div>
+</header>
+
+<section id="servicos"><div class="title"><h2>Serviços</h2><p>Suporte para os problemas mais comuns.</p></div><div class="grid">
+<div class="card"><div class="icon">🎮</div><h3>Problemas em jogos</h3><p>Crashes, erros, configurações, mods e problemas de desempenho.</p></div>
+<div class="card"><div class="icon">🖥️</div><h3>PC e Windows</h3><p>Erros do Windows, configurações e problemas gerais do computador.</p></div>
+<div class="card"><div class="icon">⚙️</div><h3>Desempenho</h3><p>Ajuda com FPS baixo, configurações e otimização segura.</p></div>
+</div></section>
+
+<section id="precos"><div class="title"><h2>Preços</h2><p>O valor é confirmado depois de analisar o problema.</p></div><div class="grid">
+<div class="card"><h3>Simples</h3><div class="price">R$ 5 <small>por atendimento</small></div><ul><li>Erros básicos</li><li>Configurações simples</li><li>Problemas comuns</li></ul></div>
+<div class="card"><h3>Padrão</h3><div class="price">R$ 10 <small>por atendimento</small></div><ul><li>Crashes</li><li>FPS baixo</li><li>Mods e Windows</li></ul></div>
+<div class="card"><h3>Complexo</h3><div class="price">R$ 15+ <small>por atendimento</small></div><ul><li>Problemas avançados</li><li>Conflitos de mods</li><li>Pesquisa e diagnóstico</li></ul></div>
+</div></section>
+
+<section id="como"><div class="title"><h2>Como funciona</h2><p>Sem complicação.</p></div><div class="steps">
+<div class="step"><div class="num">01</div><h3>Ticket</h3><p>Entre no Discord e abra um atendimento.</p></div>
+<div class="step"><div class="num">02</div><h3>Análise</h3><p>Envie detalhes, prints ou vídeos quando possível.</p></div>
+<div class="step"><div class="num">03</div><h3>Orçamento</h3><p>Receba o valor após a análise.</p></div>
+<div class="step"><div class="num">04</div><h3>Suporte</h3><p>Efetue o pagamento e receba o atendimento.</p></div>
+</div></section>
+
+<section><div class="cta"><h2>Precisa de ajuda?</h2><p>Abra um ticket e explique o que está acontecendo. Vamos analisar o problema e informar o valor antes de iniciar o atendimento.</p><div class="buttons"><a class="btn primary" href="https://discord.gg/EHMKE4X3n" target="_blank">Entrar no Discord</a></div></div></section>
+<footer>© 2026 PC Help Hub · Suporte para PC e jogos</footer>
+</div>
+</body>
+</html>
